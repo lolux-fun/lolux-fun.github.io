@@ -42,3 +42,30 @@ html {
     max-width: 100%;
     max-height: 100%;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  transition: transform 0.3s ease;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  transform: scale(1.1); /* Add a scale effect on hover */
+}

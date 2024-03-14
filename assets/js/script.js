@@ -31,5 +31,5 @@ function updateMemePreview() {
 
 fetchMemeData();
 
-setInterval(updateMemePreview, 5000);
+setInterval(updateMemePreview, 10000);
 
